@@ -1,4 +1,3 @@
-3ds-helloworld
-==============
+# template
 
-3ds_helloworld
+This is a template for starting new 3DS/ctrulib projects.
