@@ -33,6 +33,40 @@ void cutLine(char* str)
 	memmove(str,str2,strlen(str2)+1);
 }
 
+void drawFrame()
+{
+  /*
+	u8* bufAdr=gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
+
+
+	int i, j;
+	for(i=1;i<400;i++)
+	{
+		for(j=1;j<240;j++)
+		{
+			u32 v=(j+i*240)*3;
+			bufAdr[v]=(pcCos(i+cnt)+4096)/32;
+			bufAdr[v+1]=(pcCos(j-256+cnt)+4096)/64;
+			bufAdr[v+2]=(pcCos(i+128-cnt)+4096)/32;
+		}
+	}
+
+	gfxDrawText(GFX_TOP, GFX_LEFT, NULL, "ftPONY v0.1 omega\n", 240-fontDefault.height*1, 10);
+	u32 ip = gethostid();
+	char bof[256];
+	sprintf(bof, "IP: %lu.%lu.%lu.%lu, port 5000, press B at any time to exit\n", ip & 0xFF, (ip>>8)&0xFF, (ip>>16)&0xFF, (ip>>24)&0xFF);
+	gfxDrawText(GFX_TOP, GFX_LEFT, NULL, bof, 240-fontDefault.height*2, 10);
+
+	i = countLines(superStr);
+	while(i>240/fontDefault.height-3){cutLine(superStr);i--;}
+	gfxDrawText(GFX_TOP, GFX_LEFT, NULL, superStr, 240-fontDefault.height*4, 20);
+	cnt++;
+	*/
+
+	gfxFlushBuffers();
+	gfxSwapBuffers();
+}
+
 
 int main()
 {
@@ -51,20 +85,32 @@ int main()
 
 		// Your code goes here
 
+
 		u8* bufAdr=gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
 		int i, j;
+
 		for(i=1;i<400;i++)
 		{
 			for(j=1;j<240;j++)
 			{
+				//lettuce set screen to blue
 				u32 v=(j+i*240)*3;
+				bufAdr[v] = 0xFF;
+				bufAdr[v+1] = 0x00;
+				bufAdr[v+2] = 0x00;
+
+				/*
 				bufAdr[v]=(pcCos(i+cnt)+4096)/32;
 				bufAdr[v+1]=(pcCos(j-256+cnt)+4096)/64;
 				bufAdr[v+2]=(pcCos(i+128-cnt)+4096)/32;
+				*/
 			}
 		}
 
+
 		gfxDrawText(GFX_TOP, GFX_LEFT, NULL, "Hello WORLD .-. carrotcakes\n", 240-fontDefault.height*1, 10);
+		//print("\n\nclient has disconnected.\npress B to exit, or wait for next client !\n\n");
+
 
 		cnt++;
 
@@ -75,11 +121,11 @@ int main()
 		// Example rendering code that displays a white pixel
 		// Please note that the 3DS screens are sideways (thus 240x400 and 240x320)
 
-		u8* fb = gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
-		memset(fb, 0, 240*400*3);
-		fb[3*(10+10*240)] = 0xFF;
-		fb[3*(10+10*240)+1] = 0xFF;
-		fb[3*(10+10*240)+2] = 0xFF;
+		//u8* fb = gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
+		//memset(fb, 0, 240*400*3);
+		//fb[3*(10+10*240)] = 0xFF;
+		//fb[3*(10+10*240)+1] = 0xFF;
+		//fb[3*(10+10*240)+2] = 0xFF;
 
 
 		// Flush and swap framebuffers

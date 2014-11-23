@@ -1,7 +1,7 @@
 Archive member included because of file (symbol)
 
 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
-                              main.o (gfxSet3D)
+                              main.o (gfxInit)
 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
                               /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/3dsx_crt0.o (__ctru_exit)
 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
@@ -16,16 +16,12 @@ Archive member included because of file (symbol)
                               main.o (hidExit)
 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o) (irrstExit)
-/Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
-                              main.o (gethostid)
 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o) (getThreadCommandBuffer)
 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o) (linearAlloc)
 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o) (MemPool::Allocate(MemChunk&, unsigned long, int))
-/Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
-                              /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o) (SOCU_handle)
 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o) (rbtree_find)
 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
@@ -38,10 +34,6 @@ Archive member included because of file (symbol)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o) (rbtree_rotate)
 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o) (rbtree_node_next)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o)
-                              main.o (__aeabi_idiv)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_dvmd_tls.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o) (__aeabi_idiv0)
 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fini.o)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o) (__libc_fini_array)
 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
@@ -56,104 +48,20 @@ Archive member included because of file (symbol)
                               main.o (memmove)
 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
                               /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o) (__malloc_lock)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
-                              main.o (srand)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sprintf.o)
-                              main.o (sprintf)
 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o) (strcpy)
 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
                               main.o (strlen)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sprintf.o) (_svfprintf_r)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (_wcrtomb_r)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (_wcsrtombs_r)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o) (__wctomb)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-dtoa.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (_dtoa_r)
 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
                               /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o) (_free_r)
 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
                               /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o) (_impure_ptr)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (__locale_charset)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (__utf8_mbtowc)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (memchr)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (memset)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mprec.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-dtoa.o) (_Balloc)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_fpclassify.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (__fpclassifyd)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_frexp.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (frexp)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strcasecmp)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strcat)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strchr)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcmp.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strcmp)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strlcpy)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strncasecmp)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strncmp)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (strncpy)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (_strtol_r)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (__ssprint_r)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o) (_wcsnrtombs_r)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-callocr.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mprec.o) (_calloc_r)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (__set_ctype)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (_getenv_r)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o) (_realloc_r)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o) (environ)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o) (__env_lock)
 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
                               /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o) (_sbrk_r)
 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o) (fake_heap_start)
 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
                               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o) (__syscalls)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivsi3.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-dtoa.o) (__aeabi_uidiv)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_addsubdf3.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (__aeabi_dsub)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_muldivdf3.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (__aeabi_dmul)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_cmpdf2.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (__aeabi_dcmpeq)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_fixdfsi.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (__aeabi_d2iz)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o) (__divdi3)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o) (__udivdi3)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o) (__clzdi2)
-/Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzsi2.o)
-                              /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o) (__clzsi2)
 
 Allocating common symbols
 Common symbol       size              file
@@ -186,7 +94,6 @@ __system_retAddr    0x4               /Users/shawnanastasio/devkitPro/libctru/li
 irrstEvent          0x4               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
 currentBuffer       0x1               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
 irrstMemHandle      0x4               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
-curQuote            0x4               main.o
 gfxTopLeftFramebuffers
                     0x8               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
 enable3d            0x1               /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
@@ -219,10 +126,8 @@ Discarded input sections
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
@@ -236,46 +141,13 @@ Discarded input sections
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sprintf.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-dtoa.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mprec.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_fpclassify.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_frexp.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-callocr.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
- .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
  .comment       0x00000000       0x23 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
 
 Memory Configuration
@@ -288,7 +160,7 @@ Linker script and memory map
                 0x00100000                . = 0x100000
                 0x00100000                __start__ = .
 
-.text           0x00100000    0x14c40
+.text           0x00100000     0x5de0
  *(.crt0)
  .crt0          0x00100000       0x94 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/3dsx_crt0.o
                 0x00100000                _start
@@ -310,410 +182,236 @@ Linker script and memory map
  .text          0x001001b4        0x0 font.bin.o
  .text          0x001001b4        0x0 font.o
  .text          0x001001b4        0x0 font1.o
- .text          0x001001b4      0x320 main.o
-                0x00100228                pcCos
-                0x0010023c                countLines
-                0x00100270                cutLine
-                0x00100288                drawFrame
- .text          0x001004d4      0x334 text.o
-                0x001004d4                drawCharacter
-                0x001006cc                drawString
-                0x001007a4                gfxDrawText
- .text          0x00100808      0x52c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
-                0x00100874                gfxSet3D
-                0x00100884                gfxSetFramebufferInfo
-                0x001008d4                gfxWriteFramebufferInfo
-                0x00100980                gfxInit
-                0x00100ad8                gfxExit
-                0x00100b70                gfxGetFramebuffer
-                0x00100c10                gfxFlushBuffers
-                0x00100c9c                gfxSwapBuffers
-                0x00100cf4                gfxSwapBuffersGpu
- .text          0x00100d34      0x238 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
-                0x00100d34                __ctru_exit
-                0x00100db8                initSystem
- .text          0x00100f6c      0x300 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
-                0x00100f6c                __get_handle_from_list
-                0x00101004                __destroy_handle_list
-                0x00101058                srvExit
-                0x00101080                srvRegisterClient
-                0x001010b8                srvInit
-                0x0010110c                srvGetServiceHandle
-                0x0010118c                srvPmInit
-                0x001011e0                srvRegisterProcess
-                0x00101234                srvUnregisterProcess
- .text          0x0010126c     0x18fc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
-                0x001012d0                aptInitCaptureInfo
-                0x00101384                aptWaitStatusEvent
-                0x001013ac                aptGetStatus
-                0x001013e4                aptSetStatus
-                0x0010144c                aptGetStatusPower
-                0x00101484                aptSetStatusPower
-                0x001014bc                aptOpenSession
-                0x001014e0                aptCloseSession
-                0x00101508                aptSignalReadyForSleep
-                0x00101518                APT_GetLockHandle
-                0x00101570                APT_Initialize
-                0x001015e0                APT_HardwareResetAsync
-                0x00101618                APT_Enable
-                0x00101658                APT_GetAppletManInfo
-                0x001016e0                aptGetMenuAppID
-                0x0010171c                APT_IsRegistered
-                0x00101774                APT_InquireNotification
-                0x001017cc                APT_PrepareToJumpToHomeMenu
-                0x00101804                APT_JumpToHomeMenu
-                0x00101868                APT_NotifyToWait
-                0x001018a8                APT_AppletUtility
-                0x0010193c                aptAppletUtility_Exit_RetToApp
-                0x00101a2c                aptAppletClosed
-                0x00101b48                aptInit
-                0x00101c88                APT_GlanceParameter
-                0x00101d10                APT_ReceiveParameter
-                0x00101d98                APT_SendParameter
-                0x00101e18                APT_SendCaptureBufferInfo
-                0x00101e74                aptReturnToMenu
-                0x00102034                APT_ReplySleepQuery
-                0x00102084                APT_ReplySleepNotificationComplete
-                0x001020c4                aptEventHandler
-                0x00102370                APT_PrepareToCloseApplication
-                0x001023b0                APT_CloseApplication
-                0x0010241c                aptExit
-                0x001024ec                APT_SetAppCpuTimeLimit
-                0x00102530                APT_GetAppCpuTimeLimit
-                0x00102584                APT_CheckNew3DS_Application
-                0x001025d8                APT_CheckNew3DS_System
-                0x0010262c                APT_CheckNew3DS
-                0x001026a8                APT_PrepareToDoAppJump
-                0x00102708                APT_DoAppJump
-                0x00102780                APT_PrepareToStartLibraryApplet
-                0x001027c0                APT_StartLibraryApplet
-                0x00102834                aptAppletStarted
-                0x00102938                aptMainLoop
-                0x001029b0                APT_LaunchLibraryApplet
- .text          0x00102b68      0x950 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
-                0x00102c5c                gspInit
-                0x00102c70                gspExit
-                0x00102c88                gspInitEventHandler
-                0x00102d54                gspExitEventHandler
-                0x00102dac                gspWaitForEvent
-                0x00102e04                GSPGPU_WriteHWRegs
-                0x00102e88                GSPGPU_WriteHWRegsWithMask
-                0x00102f24                GSPGPU_ReadHWRegs
-                0x00102fa8                GSPGPU_SetBufferSwap
-                0x00103028                GSPGPU_FlushDataCache
-                0x0010308c                GSPGPU_InvalidateDataCache
-                0x001030f0                GSPGPU_SetLcdForceBlack
-                0x00103130                GSPGPU_TriggerCmdReqQueue
-                0x00103168                GSPGPU_RegisterInterruptRelayQueue
-                0x001031e4                GSPGPU_UnregisterInterruptRelayQueue
-                0x0010321c                GSPGPU_AcquireRight
-                0x00103270                GSPGPU_ReleaseRight
-                0x001032a8                GSPGPU_ImportDisplayCaptureInfo
-                0x0010333c                GSPGPU_SaveVramSysArea
-                0x00103374                GSPGPU_RestoreVramSysArea
-                0x001033ac                GSPGPU_SubmitGxCommand
- .text          0x001034b8      0x264 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
-                0x001034b8                GX_RequestDma
-                0x0010350c                GX_SetCommandList_Last
-                0x00103574                GX_SetMemoryFill
-                0x001035e8                GX_SetDisplayTransfer
-                0x0010364c                GX_SetTextureCopy
-                0x001036b4                GX_SetCommandList_First
- .text          0x0010371c      0x644 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
-                0x0010371c                hidExit
-                0x001037a0                hidWaitForEvent
-                0x001037f8                hidCheckSectionUpdateTime
-                0x00103834                hidScanInput
-                0x00103a68                hidKeysHeld
-                0x00103a78                hidKeysDown
-                0x00103a88                hidKeysUp
-                0x00103a98                hidTouchRead
-                0x00103ab0                hidCircleRead
-                0x00103ac8                hidAccelRead
-                0x00103ae8                hidGyroRead
-                0x00103b08                HIDUSER_GetHandles
-                0x00103b9c                hidInit
-                0x00103ca0                HIDUSER_EnableAccelerometer
-                0x00103cd0                HIDUSER_DisableAccelerometer
-                0x00103d00                HIDUSER_EnableGyroscope
-                0x00103d30                HIDUSER_DisableGyroscope
- .text          0x00103d60      0x360 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
-                0x00103d60                irrstExit
-                0x00103dc8                irrstWaitForEvent
-                0x00103e14                irrstCheckSectionUpdateTime
-                0x00103e50                irrstScanInput
-                0x00103f04                irrstKeysHeld
-                0x00103f1c                irrstCstickRead
-                0x00103f34                IRRST_GetHandles
-                0x00103f88                irrstInit
-                0x00104050                IRRST_Initialize
-                0x00104090                IRRST_Shutdown
- .text          0x001040c0       0x40 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
-                0x001040c0                gethostid
- .text          0x00104100      0x220 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
-                0x00104100                getThreadCommandBuffer
-                0x0010410c                svcControlMemory
-                0x0010412c                svcQueryMemory
-                0x0010415c                svcExitProcess
-                0x00104164                svcCreateThread
-                0x00104184                svcExitThread
-                0x0010418c                svcSleepThread
-                0x00104194                svcCreateMutex
-                0x001041a8                svcReleaseMutex
-                0x001041b0                svcCreateEvent
-                0x001041c4                svcSignalEvent
-                0x001041cc                svcClearEvent
-                0x001041d4                svcCreateTimer
-                0x001041e8                svcSetTimer
-                0x001041f0                svcCancelTimer
-                0x001041f8                svcClearTimer
-                0x00104200                svcCreateMemoryBlock
-                0x00104218                svcMapMemoryBlock
-                0x00104220                svcUnmapMemoryBlock
-                0x00104228                svcCreateAddressArbiter
-                0x00104230                svcArbitrateAddress
-                0x00104250                svcCloseHandle
-                0x00104258                svcWaitSynchronization
-                0x00104260                svcWaitSynchronizationN
-                0x00104280                svcDuplicateHandle
-                0x00104294                svcGetSystemTick
-                0x0010429c                svcGetSystemInfo
-                0x001042bc                svcGetProcessInfo
-                0x001042d8                svcConnectToPort
-                0x001042ec                svcSendSyncRequest
-                0x001042f4                svcGetProcessId
-                0x00104308                svcOutputDebugString
- .text          0x00104320      0x1d4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
-                0x00104348                linearMemAlign
-                0x00104488                linearAlloc
-                0x00104490                linearRealloc
-                0x00104498                linearFree
-                0x001044e8                linearSpaceFree
- .text          0x001044f4      0x2f8 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
-                0x001044f4                MemPool::CoalesceRight(MemBlock*)
-                0x00104598                MemPool::Allocate(MemChunk&, unsigned long, int)
-                0x001046bc                MemPool::Deallocate(MemChunk const&)
-                0x001047bc                MemPool::GetFreeSpace()
- .text          0x001047ec       0x4c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
-                0x001047ec                _net_convert_error
-                0x00104828                SOC_GetErrno
- .text          0x00104838       0x70 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
-                0x00104838                rbtree_find
- .text          0x001048a8       0x14 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
-                0x001048a8                rbtree_init
- .text          0x001048bc      0x1f4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
-                0x00104aa0                rbtree_insert
-                0x00104aa8                rbtree_insert_multi
- .text          0x00104ab0      0x340 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
-                0x00104ab0                rbtree_remove
- .text          0x00104df0       0xac /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
-                0x00104df0                rbtree_rotate
- .text          0x00104e9c      0x118 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
-                0x00104e9c                rbtree_node_next
-                0x00104f28                rbtree_node_prev
- .text          0x00104fb4      0x148 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o)
-                0x00104fb4                __aeabi_idiv
-                0x00104fb4                __divsi3
-                0x001050dc                __aeabi_idivmod
- .text          0x001050fc        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_dvmd_tls.o)
-                0x001050fc                __aeabi_ldiv0
-                0x001050fc                __aeabi_idiv0
- .text          0x00105100       0x48 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fini.o)
-                0x00105100                __libc_fini_array
- .text          0x00105148       0x80 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
-                0x00105148                __libc_init_array
- .text          0x001051c8       0x40 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
-                0x001051c8                malloc
-                0x001051e8                free
- .text          0x00105208      0x724 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
-                0x00105208                _malloc_r
- .text          0x0010592c       0xf0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
-                0x0010592c                memcpy
- .text          0x00105a1c      0x12c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
-                0x00105a1c                memmove
- .text          0x00105b48        0x8 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
-                0x00105b48                __malloc_lock
-                0x00105b4c                __malloc_unlock
- .text          0x00105b50       0x70 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
-                0x00105b50                srand
-                0x00105b6c                rand
- .text          0x00105bc0       0xdc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sprintf.o)
-                0x00105bc0                _sprintf_r
-                0x00105c28                sprintf
- .text          0x00105c9c       0xf0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
-                0x00105c9c                strcpy
- .text          0x00105d8c       0x60 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
-                0x00105d8c                strlen
- .text          0x00105dec     0x4cbc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o)
-                0x0010664c                _svfprintf_r
- .text          0x0010aaa8      0x138 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
-                0x0010aaa8                _wcrtomb_r
-                0x0010ab40                wcrtomb
- .text          0x0010abe0       0x60 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
-                0x0010abe0                _wcsrtombs_r
-                0x0010ac04                wcsrtombs
- .text          0x0010ac40      0x3cc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
-                0x0010ac40                __utf8_wctomb
-                0x0010ad54                _wctomb_r
-                0x0010ada4                __ascii_wctomb
-                0x0010adcc                __sjis_wctomb
-                0x0010ae58                __eucjp_wctomb
-                0x0010af2c                __jis_wctomb
- *fill*         0x0010b00c        0x4 
- .text          0x0010b010     0x1878 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-dtoa.o)
-                0x0010b1e8                _dtoa_r
- .text          0x0010c888      0x3bc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
-                0x0010c888                _malloc_trim_r
-                0x0010c988                _free_r
- .text          0x0010cc44        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
- .text          0x0010cc44      0xd40 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
-                0x0010d614                _setlocale_r
-                0x0010d91c                __locale_charset
-                0x0010d928                __locale_mb_cur_max
-                0x0010d938                __locale_msgcharset
-                0x0010d944                __locale_cjk_lang
-                0x0010d954                _localeconv_r
-                0x0010d960                setlocale
-                0x0010d978                localeconv
- .text          0x0010d984      0x784 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
-                0x0010d984                __utf8_mbtowc
-                0x0010dc88                _mbtowc_r
-                0x0010dcdc                __ascii_mbtowc
-                0x0010dd28                __sjis_mbtowc
-                0x0010de04                __eucjp_mbtowc
-                0x0010df54                __jis_mbtowc
- .text          0x0010e108      0x118 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
-                0x0010e108                memchr
- .text          0x0010e220       0xf4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
-                0x0010e220                memset
- .text          0x0010e314      0xd74 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mprec.o)
-                0x0010e314                _Balloc
-                0x0010e3a4                _Bfree
-                0x0010e3c0                __multadd
-                0x0010e49c                __s2b
-                0x0010e584                __hi0bits
-                0x0010e5e0                __lo0bits
-                0x0010e674                __i2b
-                0x0010e698                __multiply
-                0x0010e888                __pow5mult
-                0x0010e98c                __lshift
-                0x0010ea84                __mcmp
-                0x0010eae8                __mdiff
-                0x0010ec3c                __ulp
-                0x0010eca0                __b2d
-                0x0010ed9c                __d2b
-                0x0010eea8                __ratio
-                0x0010ef40                _mprec_log10
-                0x0010ef98                __copybits
-                0x0010f008                __any_on
- .text          0x0010f088       0x6c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_fpclassify.o)
-                0x0010f088                __fpclassifyd
- .text          0x0010f0f4       0xa8 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_frexp.o)
-                0x0010f0f4                frexp
- .text          0x0010f19c       0x6c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
-                0x0010f19c                strcasecmp
- .text          0x0010f208       0x84 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
-                0x0010f208                strcat
- .text          0x0010f28c      0x160 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
-                0x0010f28c                strchr
- .text          0x0010f3ec      0x230 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcmp.o)
-                0x0010f3ec                strcmp
- .text          0x0010f61c       0x48 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
-                0x0010f61c                strlcpy
- .text          0x0010f664       0x94 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
-                0x0010f664                strncasecmp
- .text          0x0010f6f8      0x118 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
-                0x0010f6f8                strncmp
- .text          0x0010f810       0xe4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
-                0x0010f810                strncpy
- .text          0x0010f8f4      0x204 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
-                0x0010f8f4                _strtol_r
-                0x0010fad0                strtol
- .text          0x0010faf8     0x38b4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
-                0x00110358                __ssprint_r
-                0x00110508                _svfiprintf_r
- .text          0x001133ac      0x1dc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
-                0x001133ac                _wcsnrtombs_r
-                0x00113540                wcsnrtombs
- .text          0x00113588       0x9c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-callocr.o)
-                0x00113588                _calloc_r
- .text          0x00113624       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
-                0x00113624                __set_ctype
- .text          0x0011363c       0xec /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
-                0x0011363c                _findenv_r
-                0x0011370c                _getenv_r
- .text          0x00113728      0x4dc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
-                0x00113728                _realloc_r
- .text          0x00113c04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
- .text          0x00113c04        0x8 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
-                0x00113c04                __env_lock
-                0x00113c08                __env_unlock
- .text          0x00113c0c       0x70 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
-                0x00113c0c                _sbrk_r
- .text          0x00113c7c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
- .text          0x00113c7c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
- .text          0x00113c7c      0x114 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivsi3.o)
-                0x00113c7c                __udivsi3
-                0x00113c7c                __aeabi_uidiv
-                0x00113d70                __aeabi_uidivmod
- .text          0x00113d90      0x41c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_addsubdf3.o)
-                0x00113d90                __aeabi_drsub
-                0x00113d98                __subdf3
-                0x00113d98                __aeabi_dsub
-                0x00113d9c                __aeabi_dadd
-                0x00113d9c                __adddf3
-                0x001140ac                __aeabi_ui2d
-                0x001140ac                __floatunsidf
-                0x001140d0                __floatsidf
-                0x001140d0                __aeabi_i2d
-                0x001140f8                __extendsfdf2
-                0x001140f8                __aeabi_f2d
-                0x00114138                __aeabi_ul2d
-                0x00114138                __floatundidf
-                0x0011414c                __aeabi_l2d
-                0x0011414c                __floatdidf
- .text          0x001141ac      0x49c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_muldivdf3.o)
-                0x001141ac                __aeabi_dmul
-                0x001141ac                __muldf3
-                0x0011443c                __aeabi_ddiv
-                0x0011443c                __divdf3
- .text          0x00114648      0x144 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_cmpdf2.o)
-                0x00114648                __gtdf2
-                0x00114648                __gedf2
-                0x00114650                __ltdf2
-                0x00114650                __ledf2
-                0x00114658                __eqdf2
-                0x00114658                __nedf2
-                0x00114658                __cmpdf2
-                0x001146e0                __aeabi_cdrcmple
-                0x001146fc                __aeabi_cdcmple
-                0x001146fc                __aeabi_cdcmpeq
-                0x00114714                __aeabi_dcmpeq
-                0x0011472c                __aeabi_dcmplt
-                0x00114744                __aeabi_dcmple
-                0x0011475c                __aeabi_dcmpge
-                0x00114774                __aeabi_dcmpgt
- .text          0x0011478c       0x5c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_fixdfsi.o)
-                0x0011478c                __fixdfsi
-                0x0011478c                __aeabi_d2iz
- .text          0x001147e8       0x3c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o)
-                0x001147e8                __aeabi_uldivmod
- .text          0x00114824       0x84 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
-                0x00114824                __gnu_ldivmod_helper
-                0x00114868                __gnu_uldivmod_helper
- .text          0x001148a8      0x178 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
-                0x001148a8                __divdi3
- .text          0x00114a20      0x120 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
-                0x00114a20                __udivdi3
- .text          0x00114b40       0x28 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o)
-                0x00114b40                __clzdi2
- .text          0x00114b68       0x48 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzsi2.o)
-                0x00114b68                __clzsi2
- .text          0x00114bb0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
- .text          0x00114bb0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+ .text          0x001001b4       0xd4 main.o
+                0x001001b4                pcCos
+                0x001001c8                countLines
+                0x001001fc                cutLine
+                0x00100278                drawFrame
+ .text          0x00100288      0x334 text.o
+                0x00100288                drawCharacter
+                0x00100480                drawString
+                0x00100558                gfxDrawText
+ .text          0x001005bc      0x52c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+                0x00100628                gfxSet3D
+                0x00100638                gfxSetFramebufferInfo
+                0x00100688                gfxWriteFramebufferInfo
+                0x00100734                gfxInit
+                0x0010088c                gfxExit
+                0x00100924                gfxGetFramebuffer
+                0x001009c4                gfxFlushBuffers
+                0x00100a50                gfxSwapBuffers
+                0x00100aa8                gfxSwapBuffersGpu
+ .text          0x00100ae8      0x238 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+                0x00100ae8                __ctru_exit
+                0x00100b6c                initSystem
+ .text          0x00100d20      0x300 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
+                0x00100d20                __get_handle_from_list
+                0x00100db8                __destroy_handle_list
+                0x00100e0c                srvExit
+                0x00100e34                srvRegisterClient
+                0x00100e6c                srvInit
+                0x00100ec0                srvGetServiceHandle
+                0x00100f40                srvPmInit
+                0x00100f94                srvRegisterProcess
+                0x00100fe8                srvUnregisterProcess
+ .text          0x00101020     0x18fc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+                0x00101084                aptInitCaptureInfo
+                0x00101138                aptWaitStatusEvent
+                0x00101160                aptGetStatus
+                0x00101198                aptSetStatus
+                0x00101200                aptGetStatusPower
+                0x00101238                aptSetStatusPower
+                0x00101270                aptOpenSession
+                0x00101294                aptCloseSession
+                0x001012bc                aptSignalReadyForSleep
+                0x001012cc                APT_GetLockHandle
+                0x00101324                APT_Initialize
+                0x00101394                APT_HardwareResetAsync
+                0x001013cc                APT_Enable
+                0x0010140c                APT_GetAppletManInfo
+                0x00101494                aptGetMenuAppID
+                0x001014d0                APT_IsRegistered
+                0x00101528                APT_InquireNotification
+                0x00101580                APT_PrepareToJumpToHomeMenu
+                0x001015b8                APT_JumpToHomeMenu
+                0x0010161c                APT_NotifyToWait
+                0x0010165c                APT_AppletUtility
+                0x001016f0                aptAppletUtility_Exit_RetToApp
+                0x001017e0                aptAppletClosed
+                0x001018fc                aptInit
+                0x00101a3c                APT_GlanceParameter
+                0x00101ac4                APT_ReceiveParameter
+                0x00101b4c                APT_SendParameter
+                0x00101bcc                APT_SendCaptureBufferInfo
+                0x00101c28                aptReturnToMenu
+                0x00101de8                APT_ReplySleepQuery
+                0x00101e38                APT_ReplySleepNotificationComplete
+                0x00101e78                aptEventHandler
+                0x00102124                APT_PrepareToCloseApplication
+                0x00102164                APT_CloseApplication
+                0x001021d0                aptExit
+                0x001022a0                APT_SetAppCpuTimeLimit
+                0x001022e4                APT_GetAppCpuTimeLimit
+                0x00102338                APT_CheckNew3DS_Application
+                0x0010238c                APT_CheckNew3DS_System
+                0x001023e0                APT_CheckNew3DS
+                0x0010245c                APT_PrepareToDoAppJump
+                0x001024bc                APT_DoAppJump
+                0x00102534                APT_PrepareToStartLibraryApplet
+                0x00102574                APT_StartLibraryApplet
+                0x001025e8                aptAppletStarted
+                0x001026ec                aptMainLoop
+                0x00102764                APT_LaunchLibraryApplet
+ .text          0x0010291c      0x950 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+                0x00102a10                gspInit
+                0x00102a24                gspExit
+                0x00102a3c                gspInitEventHandler
+                0x00102b08                gspExitEventHandler
+                0x00102b60                gspWaitForEvent
+                0x00102bb8                GSPGPU_WriteHWRegs
+                0x00102c3c                GSPGPU_WriteHWRegsWithMask
+                0x00102cd8                GSPGPU_ReadHWRegs
+                0x00102d5c                GSPGPU_SetBufferSwap
+                0x00102ddc                GSPGPU_FlushDataCache
+                0x00102e40                GSPGPU_InvalidateDataCache
+                0x00102ea4                GSPGPU_SetLcdForceBlack
+                0x00102ee4                GSPGPU_TriggerCmdReqQueue
+                0x00102f1c                GSPGPU_RegisterInterruptRelayQueue
+                0x00102f98                GSPGPU_UnregisterInterruptRelayQueue
+                0x00102fd0                GSPGPU_AcquireRight
+                0x00103024                GSPGPU_ReleaseRight
+                0x0010305c                GSPGPU_ImportDisplayCaptureInfo
+                0x001030f0                GSPGPU_SaveVramSysArea
+                0x00103128                GSPGPU_RestoreVramSysArea
+                0x00103160                GSPGPU_SubmitGxCommand
+ .text          0x0010326c      0x264 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
+                0x0010326c                GX_RequestDma
+                0x001032c0                GX_SetCommandList_Last
+                0x00103328                GX_SetMemoryFill
+                0x0010339c                GX_SetDisplayTransfer
+                0x00103400                GX_SetTextureCopy
+                0x00103468                GX_SetCommandList_First
+ .text          0x001034d0      0x644 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+                0x001034d0                hidExit
+                0x00103554                hidWaitForEvent
+                0x001035ac                hidCheckSectionUpdateTime
+                0x001035e8                hidScanInput
+                0x0010381c                hidKeysHeld
+                0x0010382c                hidKeysDown
+                0x0010383c                hidKeysUp
+                0x0010384c                hidTouchRead
+                0x00103864                hidCircleRead
+                0x0010387c                hidAccelRead
+                0x0010389c                hidGyroRead
+                0x001038bc                HIDUSER_GetHandles
+                0x00103950                hidInit
+                0x00103a54                HIDUSER_EnableAccelerometer
+                0x00103a84                HIDUSER_DisableAccelerometer
+                0x00103ab4                HIDUSER_EnableGyroscope
+                0x00103ae4                HIDUSER_DisableGyroscope
+ .text          0x00103b14      0x360 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+                0x00103b14                irrstExit
+                0x00103b7c                irrstWaitForEvent
+                0x00103bc8                irrstCheckSectionUpdateTime
+                0x00103c04                irrstScanInput
+                0x00103cb8                irrstKeysHeld
+                0x00103cd0                irrstCstickRead
+                0x00103ce8                IRRST_GetHandles
+                0x00103d3c                irrstInit
+                0x00103e04                IRRST_Initialize
+                0x00103e44                IRRST_Shutdown
+ *fill*         0x00103e74        0xc 
+ .text          0x00103e80      0x220 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
+                0x00103e80                getThreadCommandBuffer
+                0x00103e8c                svcControlMemory
+                0x00103eac                svcQueryMemory
+                0x00103edc                svcExitProcess
+                0x00103ee4                svcCreateThread
+                0x00103f04                svcExitThread
+                0x00103f0c                svcSleepThread
+                0x00103f14                svcCreateMutex
+                0x00103f28                svcReleaseMutex
+                0x00103f30                svcCreateEvent
+                0x00103f44                svcSignalEvent
+                0x00103f4c                svcClearEvent
+                0x00103f54                svcCreateTimer
+                0x00103f68                svcSetTimer
+                0x00103f70                svcCancelTimer
+                0x00103f78                svcClearTimer
+                0x00103f80                svcCreateMemoryBlock
+                0x00103f98                svcMapMemoryBlock
+                0x00103fa0                svcUnmapMemoryBlock
+                0x00103fa8                svcCreateAddressArbiter
+                0x00103fb0                svcArbitrateAddress
+                0x00103fd0                svcCloseHandle
+                0x00103fd8                svcWaitSynchronization
+                0x00103fe0                svcWaitSynchronizationN
+                0x00104000                svcDuplicateHandle
+                0x00104014                svcGetSystemTick
+                0x0010401c                svcGetSystemInfo
+                0x0010403c                svcGetProcessInfo
+                0x00104058                svcConnectToPort
+                0x0010406c                svcSendSyncRequest
+                0x00104074                svcGetProcessId
+                0x00104088                svcOutputDebugString
+ .text          0x001040a0      0x1d4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+                0x001040c8                linearMemAlign
+                0x00104208                linearAlloc
+                0x00104210                linearRealloc
+                0x00104218                linearFree
+                0x00104268                linearSpaceFree
+ .text          0x00104274      0x2f8 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+                0x00104274                MemPool::CoalesceRight(MemBlock*)
+                0x00104318                MemPool::Allocate(MemChunk&, unsigned long, int)
+                0x0010443c                MemPool::Deallocate(MemChunk const&)
+                0x0010453c                MemPool::GetFreeSpace()
+ .text          0x0010456c       0x70 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+                0x0010456c                rbtree_find
+ .text          0x001045dc       0x14 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
+                0x001045dc                rbtree_init
+ .text          0x001045f0      0x1f4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+                0x001047d4                rbtree_insert
+                0x001047dc                rbtree_insert_multi
+ .text          0x001047e4      0x340 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+                0x001047e4                rbtree_remove
+ .text          0x00104b24       0xac /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+                0x00104b24                rbtree_rotate
+ .text          0x00104bd0      0x118 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+                0x00104bd0                rbtree_node_next
+                0x00104c5c                rbtree_node_prev
+ .text          0x00104ce8       0x48 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fini.o)
+                0x00104ce8                __libc_fini_array
+ .text          0x00104d30       0x80 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
+                0x00104d30                __libc_init_array
+ .text          0x00104db0       0x40 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
+                0x00104db0                malloc
+                0x00104dd0                free
+ .text          0x00104df0      0x724 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
+                0x00104df0                _malloc_r
+ .text          0x00105514       0xf0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
+                0x00105514                memcpy
+ .text          0x00105604      0x12c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
+                0x00105604                memmove
+ .text          0x00105730        0x8 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
+                0x00105730                __malloc_lock
+                0x00105734                __malloc_unlock
+ .text          0x00105738       0xf0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
+                0x00105738                strcpy
+ .text          0x00105828       0x60 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
+                0x00105828                strlen
+ .text          0x00105888      0x3bc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
+                0x00105888                _malloc_trim_r
+                0x00105988                _free_r
+ .text          0x00105c44        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+ .text          0x00105c44       0x70 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
+                0x00105c44                _sbrk_r
+ .text          0x00105cb4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
+ .text          0x00105cb4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
+ .text          0x00105cb4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+ .text          0x00105cb4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
  *(.text.*)
- .text.startup  0x00114bb0       0x78 main.o
-                0x00114bb0                main
+ .text.startup  0x00105cb4      0x114 main.o
+                0x00105cb4                main
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
@@ -721,249 +419,168 @@ Linker script and memory map
  *(.stub)
  *(.gnu.warning)
  *(.gnu.linkonce.t*)
-                0x00114c28                . = ALIGN (0x4)
+                0x00105dc8                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00114c28        0xc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
-                0x00114c28                _fini
- .fini          0x00114c34        0xc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
-                0x00114c40                . = ALIGN (0x4)
+ .fini          0x00105dc8        0xc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
+                0x00105dc8                _fini
+ .fini          0x00105dd4        0xc /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+                0x00105de0                . = ALIGN (0x4)
 
-.vfp11_veneer   0x00114c40        0x0
+.vfp11_veneer   0x00105de0        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00114c40        0x0
+.v4_bx          0x00105de0        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00114c40        0x0
+.iplt           0x00105de0        0x0
  .iplt          0x00000000        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/3dsx_crt0.o
 
-.rodata         0x00115000     0x8874
+.rodata         0x00106000     0x8080
  *(.rodata)
- .rodata        0x00115000     0x8004 font.bin.o
-                0x00115000                font_bin
-                0x0011d000                font_bin_end
-                0x0011d000                font_bin_size
- .rodata        0x0011d004        0x4 main.o
-                0x0011d004                numQuotes
- .rodata        0x0011d008        0xc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
- .rodata        0x0011d014       0x50 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
- .rodata        0x0011d064       0x20 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o)
- .rodata        0x0011d084        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
-                0x0011d084                _global_impure_ptr
- .rodata        0x0011d088       0x1c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
- .rodata        0x0011d0a4       0x90 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
- *fill*         0x0011d134        0x4 
- .rodata        0x0011d138      0x128 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mprec.o)
-                0x0011d148                __mprec_tens
-                0x0011d210                __mprec_tinytens
-                0x0011d238                __mprec_bigtens
- .rodata        0x0011d260      0x1f8 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
-                0x0011d260                __chclass
-                0x0011d360                __state_table
-                0x0011d3cc                __action_table
- .rodata        0x0011d458      0x104 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
-                0x0011d458                _ctype_
+ .rodata        0x00106000     0x8004 font.bin.o
+                0x00106000                font_bin
+                0x0010e000                font_bin_end
+                0x0010e000                font_bin_size
+ .rodata        0x0010e004        0xc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+ .rodata        0x0010e010        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+                0x0010e010                _global_impure_ptr
  *(.roda)
  *(.rodata.*)
  .rodata.str1.4
-                0x0011d55c      0x150 main.o
+                0x0010e014       0x1d main.o
+                                 0x20 (size before relaxing)
+ *fill*         0x0010e031        0x3 
  .rodata.str1.4
-                0x0011d6ac        0xf /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
+                0x0010e034        0xf /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
                                  0x10 (size before relaxing)
- *fill*         0x0011d6bb        0x1 
+ *fill*         0x0010e043        0x1 
  .rodata.str1.4
-                0x0011d6bc       0x16 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+                0x0010e044       0x16 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
                                  0x18 (size before relaxing)
- *fill*         0x0011d6d2        0x2 
+ *fill*         0x0010e05a        0x2 
  .rodata.str1.4
-                0x0011d6d4        0x9 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+                0x0010e05c        0x9 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
                                   0xc (size before relaxing)
- *fill*         0x0011d6dd        0x3 
+ *fill*         0x0010e065        0x3 
  .rodata.str1.4
-                0x0011d6e0        0x9 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+                0x0010e068        0x9 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
                                   0xc (size before relaxing)
- *fill*         0x0011d6e9        0x3 
+ *fill*         0x0010e071        0x3 
  .rodata.str1.4
-                0x0011d6ec        0x7 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+                0x0010e074        0x7 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
                                   0x8 (size before relaxing)
- *fill*         0x0011d6f3        0x1 
+ *fill*         0x0010e07b        0x1 
  .rodata.str1.4
-                0x0011d6f4       0x42 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o)
-                                 0x44 (size before relaxing)
- *fill*         0x0011d736        0x2 
- .rodata.str1.4
-                0x0011d738       0x10 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-dtoa.o)
-                                 0x14 (size before relaxing)
- .rodata.str1.4
-                0x0011d748        0x2 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
-                                  0x4 (size before relaxing)
- *fill*         0x0011d74a        0x2 
- .rodata.str1.4
-                0x0011d74c      0x128 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
-                                0x130 (size before relaxing)
- .rodata.str1.4
-                0x00000000       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
+                0x0010e07c        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
  *all.rodata*(*)
  *(.gnu.linkonce.r*)
-                0x0011d874                . = ALIGN (0x4)
+                0x0010e080                . = ALIGN (0x4)
 
-.rel.dyn        0x0011d874        0x0
+.rel.dyn        0x0010e080        0x0
  .rel.iplt      0x00000000        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/3dsx_crt0.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0011d874                __exidx_start = .
+                0x0010e080                __exidx_start = .
 
 ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0011d874                __exidx_end = .
+                0x0010e080                __exidx_end = .
 
-.data           0x0011e000     0x54c0
+.data           0x0010f000     0x5320
  *(.data)
- .data          0x0011e000        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/3dsx_crt0.o
- .data          0x0011e000        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
- .data          0x0011e000        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
-                0x0011e000                __dso_handle
- .data          0x0011e004        0x0 font.bin.o
- .data          0x0011e004        0xc font.o
-                0x0011e004                fontDefault
- .data          0x0011e010     0x42cc font1.o
-                0x0011e010                font1Data
-                0x0011fedc                font1Desc
- .data          0x001222dc      0x818 main.o
-                0x001222dc                costable
-                0x00122adc                quotes
- .data          0x00122af4        0x0 text.o
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_dvmd_tls.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fini.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
- .data          0x00122af4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
- .data          0x00122af4      0x410 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
-                0x00122af4                __malloc_av_
-                0x00122efc                __malloc_sbrk_base
-                0x00122f00                __malloc_trim_threshold
- .data          0x00122f04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
- .data          0x00122f04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
- .data          0x00122f04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
- .data          0x00122f04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
- .data          0x00122f04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sprintf.o)
- .data          0x00122f04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
- .data          0x00122f04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
- .data          0x00122f04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o)
- .data          0x00122f04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
- .data          0x00122f04        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
- .data          0x00122f04        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
-                0x00122f04                __wctomb
- .data          0x00122f08        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-dtoa.o)
- .data          0x00122f08        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
- .data          0x00122f08      0x430 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
-                0x00122f08                _impure_ptr
- .data          0x00123338      0x17c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
-                0x00123338                __default_locale
-                0x00123458                __mb_cur_max
- .data          0x001234b4        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
-                0x001234b4                __mbtowc
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mprec.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_fpclassify.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_frexp.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcmp.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
- .data          0x001234b8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-callocr.o)
- .data          0x001234b8        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
-                0x001234b8                __ctype_ptr__
- .data          0x001234bc        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
- .data          0x001234bc        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
- .data          0x001234bc        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
-                0x001234bc                environ
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivsi3.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_addsubdf3.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_muldivdf3.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_cmpdf2.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_fixdfsi.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzsi2.o)
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
- .data          0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+ .data          0x0010f000        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/3dsx_crt0.o
+ .data          0x0010f000        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
+ .data          0x0010f000        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+                0x0010f000                __dso_handle
+ .data          0x0010f004        0x0 font.bin.o
+ .data          0x0010f004        0xc font.o
+                0x0010f004                fontDefault
+ .data          0x0010f010     0x42cc font1.o
+                0x0010f010                font1Data
+                0x00110edc                font1Desc
+ .data          0x001132dc      0x800 main.o
+                0x001132dc                costable
+ .data          0x00113adc        0x0 text.o
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fini.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
+ .data          0x00113adc        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
+ .data          0x00113adc      0x410 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
+                0x00113adc                __malloc_av_
+                0x00113ee4                __malloc_sbrk_base
+                0x00113ee8                __malloc_trim_threshold
+ .data          0x00113eec        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
+ .data          0x00113eec        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
+ .data          0x00113eec        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
+ .data          0x00113eec        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
+ .data          0x00113eec        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
+ .data          0x00113eec        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
+ *fill*         0x00113eec        0x4 
+ .data          0x00113ef0      0x430 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+                0x00113ef0                _impure_ptr
+ .data          0x00114320        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
+ .data          0x00114320        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
+ .data          0x00114320        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
+ .data          0x00114320        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+ .data          0x00114320        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
  *(.data.*)
  *(.gnu.linkonce.d*)
-                0x001234c0                . = ALIGN (0x4)
+                0x00114320                . = ALIGN (0x4)
 
-.igot.plt       0x001234c0        0x0
+.igot.plt       0x00114320        0x0
  .igot.plt      0x00000000        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/3dsx_crt0.o
 
-.eh_frame       0x001234c0        0x4
- .eh_frame      0x001234c0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
- .eh_frame      0x001234c0        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+.eh_frame       0x00114320        0x4
+ .eh_frame      0x00114320        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ .eh_frame      0x00114320        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
 
-.jcr            0x001234c4        0x4
- .jcr           0x001234c4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
- .jcr           0x001234c4        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+.jcr            0x00114324        0x4
+ .jcr           0x00114324        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ .jcr           0x00114324        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
 
 .tm_clone_table
-                0x001234c8        0x0
+                0x00114328        0x0
  .tm_clone_table
-                0x001234c8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+                0x00114328        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
  .tm_clone_table
-                0x001234c8        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
-                0x001234c8                __TMC_END__
+                0x00114328        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+                0x00114328                __TMC_END__
 
-.preinit_array  0x001234c8        0x0
-                0x001234c8                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x00114328        0x0
+                0x00114328                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x001234c8                PROVIDE (__preinit_array_end, .)
+                0x00114328                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x001234c8        0x4
-                0x001234c8                PROVIDE (__init_array_start, .)
+.init_array     0x00114328        0x4
+                0x00114328                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x001234c8        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
-                0x001234cc                PROVIDE (__init_array_end, .)
+ .init_array    0x00114328        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+                0x0011432c                PROVIDE (__init_array_end, .)
 
-.fini_array     0x001234cc        0x4
-                0x001234cc                PROVIDE (__fini_array_start, .)
+.fini_array     0x0011432c        0x4
+                0x0011432c                PROVIDE (__fini_array_start, .)
  *(.fini_array)
- .fini_array    0x001234cc        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ .fini_array    0x0011432c        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
  *(SORT(.fini_array.*))
-                0x001234d0                PROVIDE (__fini_array_end, .)
+                0x00114330                PROVIDE (__fini_array_end, .)
 
 .ctors
  *crtbegin.o(.ctors)
@@ -976,173 +593,119 @@ ARM.exidx
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x001234d0                __bss_start__ = .
+                0x00114330                __bss_start__ = .
 
-.bss            0x001234d0     0x54d8
+.bss            0x00114330     0x5208
  *(.dynbss)
  *(.bss)
- .bss           0x001234d0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/3dsx_crt0.o
- .bss           0x001234d0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
- .bss           0x001234d0       0x1c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
- .bss           0x001234ec        0x0 font.bin.o
- .bss           0x001234ec        0x0 font.o
- .bss           0x001234ec        0x0 font1.o
- .bss           0x001234ec        0x0 main.o
- .bss           0x001234ec        0x0 text.o
- .bss           0x001234ec        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
- .bss           0x001234ec        0x4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
- .bss           0x001234f0        0x4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
- .bss           0x001234f4       0x4c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
-                0x001234f8                aptStatusEvent
-                0x001234fc                aptStatus
-                0x00123500                aptStatusPower
-                0x00123504                aptSleepSync
-                0x00123528                aptStatusBeforeSleep
- .bss           0x00123540        0xc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
-                0x00123548                gspGpuHandle
- .bss           0x0012354c        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
- .bss           0x0012354c       0x28 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
- .bss           0x00123574        0xc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
- .bss           0x00123580        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
- .bss           0x00123580        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
- .bss           0x00123580       0x14 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
- .bss           0x00123594        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
- .bss           0x00123594        0xc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
-                0x00123594                SOCU_errno
-                0x00123598                socMemhandle
-                0x0012359c                SOCU_handle
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o)
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_dvmd_tls.o)
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fini.o)
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
- .bss           0x001235a0        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
- .bss           0x001235a0       0x34 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
-                0x001235a0                __malloc_top_pad
-                0x001235a4                __malloc_current_mallinfo
-                0x001235cc                __malloc_max_sbrked_mem
-                0x001235d0                __malloc_max_total_mem
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sprintf.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-dtoa.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
- .bss           0x001235d4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
- .bss           0x001235d4      0x2b8 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
-                0x00123880                _PathLocale
-                0x00123884                __mlocale_changed
-                0x00123888                __nlocale_changed
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mprec.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_fpclassify.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_frexp.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcmp.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-callocr.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
- .bss           0x0012388c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
- .bss           0x0012388c        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
- .bss           0x00123890        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
- .bss           0x00123890        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
- .bss           0x00123894        0x8 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
-                0x00123894                fake_heap_start
-                0x00123898                fake_heap_end
- .bss           0x0012389c        0x8 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
-                0x0012389c                __syscalls
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivsi3.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_addsubdf3.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_muldivdf3.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_cmpdf2.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_fixdfsi.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzsi2.o)
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
- .bss           0x001238a4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+ .bss           0x00114330        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/3dsx_crt0.o
+ .bss           0x00114330        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
+ .bss           0x00114330       0x1c /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ .bss           0x0011434c        0x0 font.bin.o
+ .bss           0x0011434c        0x0 font.o
+ .bss           0x0011434c        0x0 font1.o
+ .bss           0x0011434c        0x0 main.o
+ .bss           0x0011434c        0x0 text.o
+ .bss           0x0011434c        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+ .bss           0x0011434c        0x4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+ .bss           0x00114350        0x4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
+ .bss           0x00114354       0x4c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+                0x00114358                aptStatusEvent
+                0x0011435c                aptStatus
+                0x00114360                aptStatusPower
+                0x00114364                aptSleepSync
+                0x00114388                aptStatusBeforeSleep
+ .bss           0x001143a0        0xc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+                0x001143a8                gspGpuHandle
+ .bss           0x001143ac        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
+ .bss           0x001143ac       0x28 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+ .bss           0x001143d4        0xc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+ .bss           0x001143e0        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
+ .bss           0x001143e0       0x14 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+ .bss           0x001143f4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+ .bss           0x001143f4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+ .bss           0x001143f4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
+ .bss           0x001143f4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+ .bss           0x001143f4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+ .bss           0x001143f4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+ .bss           0x001143f4        0x0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+ .bss           0x001143f4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fini.o)
+ .bss           0x001143f4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
+ .bss           0x001143f4        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
+ .bss           0x001143f4       0x34 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
+                0x001143f4                __malloc_top_pad
+                0x001143f8                __malloc_current_mallinfo
+                0x00114420                __malloc_max_sbrked_mem
+                0x00114424                __malloc_max_total_mem
+ .bss           0x00114428        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
+ .bss           0x00114428        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
+ .bss           0x00114428        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
+ .bss           0x00114428        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
+ .bss           0x00114428        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
+ .bss           0x00114428        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
+ .bss           0x00114428        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+ .bss           0x00114428        0x4 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
+ .bss           0x0011442c        0x8 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
+                0x0011442c                fake_heap_start
+                0x00114430                fake_heap_end
+ .bss           0x00114434        0x8 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
+                0x00114434                __syscalls
+ .bss           0x0011443c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+ .bss           0x0011443c        0x0 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
  *(.bss.*)
  *(.gnu.linkonce.b*)
  *(COMMON)
- COMMON         0x001238a4     0x2008 main.o
-                0x001238a4                cnt
-                0x001238a8                curQuote
-                0x001238ac                superStr
- COMMON         0x001258ac       0x68 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
-                0x001258ac                gfxBottomFramebuffers
-                0x001258b4                gspSharedMemHandle
-                0x001258b8                bottomFramebufferInfo
-                0x001258d4                gspEvent
-                0x001258d8                currentBuffer
-                0x001258dc                gfxTopLeftFramebuffers
-                0x001258e4                enable3d
-                0x001258e8                gfxTopRightFramebuffers
-                0x001258f0                topFramebufferInfo
-                0x0012590c                gfxThreadID
-                0x00125910                gfxSharedMemory
- COMMON         0x00125914       0x10 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
-                0x00125914                __system_argv
-                0x00125918                __system_argc
-                0x0012591c                __linear_heap
-                0x00125920                __system_retAddr
- *fill*         0x00125924        0x4 
- COMMON         0x00125928     0x2022 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
-                0x00125928                aptEventHandlerThread
-                0x0012592c                aptParameters
-                0x00126930                aptEventHandlerStack
-                0x00127930                aptuHandle
-                0x00127934                aptEvents
-                0x00127940                aptStatusMutex
-                0x00127944                aptLockHandle
-                0x00127948                currentAppId
- *fill*         0x0012794a        0x6 
- COMMON         0x00127950     0x1021 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
-                0x00127950                gspEventStack
-                0x00128950                gspEventThread
-                0x00128954                gspEvents
-                0x00128970                gspRunEvents
- *fill*         0x00128971        0x3 
- COMMON         0x00128974        0x4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
-                0x00128974                gxCmdBuf
- COMMON         0x00128978       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
-                0x00128978                hidMemHandle
-                0x0012897c                hidHandle
-                0x00128980                hidSharedMem
-                0x00128984                hidEvents
- COMMON         0x00128998       0x10 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
-                0x00128998                irrstHandle
-                0x0012899c                irrstEvent
-                0x001289a0                irrstMemHandle
-                0x001289a4                irrstSharedMem
-                0x001289a8                . = ALIGN (0x4)
-                0x001289a8                __bss_end__ = .
-                0x001289a8                __end__ = ABSOLUTE (.)
+ COMMON         0x0011443c     0x2004 main.o
+                0x0011443c                cnt
+                0x00114440                superStr
+ COMMON         0x00116440       0x68 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+                0x00116440                gfxBottomFramebuffers
+                0x00116448                gspSharedMemHandle
+                0x0011644c                bottomFramebufferInfo
+                0x00116468                gspEvent
+                0x0011646c                currentBuffer
+                0x00116470                gfxTopLeftFramebuffers
+                0x00116478                enable3d
+                0x0011647c                gfxTopRightFramebuffers
+                0x00116484                topFramebufferInfo
+                0x001164a0                gfxThreadID
+                0x001164a4                gfxSharedMemory
+ COMMON         0x001164a8       0x10 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+                0x001164a8                __system_argv
+                0x001164ac                __system_argc
+                0x001164b0                __linear_heap
+                0x001164b4                __system_retAddr
+ COMMON         0x001164b8     0x2022 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+                0x001164b8                aptEventHandlerThread
+                0x001164bc                aptParameters
+                0x001174c0                aptEventHandlerStack
+                0x001184c0                aptuHandle
+                0x001184c4                aptEvents
+                0x001184d0                aptStatusMutex
+                0x001184d4                aptLockHandle
+                0x001184d8                currentAppId
+ *fill*         0x001184da        0x6 
+ COMMON         0x001184e0     0x1021 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+                0x001184e0                gspEventStack
+                0x001194e0                gspEventThread
+                0x001194e4                gspEvents
+                0x00119500                gspRunEvents
+ *fill*         0x00119501        0x3 
+ COMMON         0x00119504        0x4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
+                0x00119504                gxCmdBuf
+ COMMON         0x00119508       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+                0x00119508                hidMemHandle
+                0x0011950c                hidHandle
+                0x00119510                hidSharedMem
+                0x00119514                hidEvents
+ COMMON         0x00119528       0x10 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+                0x00119528                irrstHandle
+                0x0011952c                irrstEvent
+                0x00119530                irrstMemHandle
+                0x00119534                irrstSharedMem
+                0x00119538                . = ALIGN (0x4)
+                0x00119538                __bss_end__ = .
+                0x00119538                __end__ = ABSOLUTE (.)
 
 /DISCARD/
  *(.group .comment .note)
@@ -1177,7 +740,7 @@ ARM.exidx
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x2d8
+.debug_aranges  0x00000000      0x298
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x18 font.o
@@ -1204,200 +767,182 @@ ARM.exidx
  .debug_aranges
                 0x00000158       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
  .debug_aranges
-                0x00000178       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
+                0x00000178       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
  .debug_aranges
-                0x00000198       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
+                0x00000198       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
  .debug_aranges
-                0x000001b8       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+                0x000001b8       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
  .debug_aranges
-                0x000001d8       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+                0x000001d8       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
  .debug_aranges
-                0x000001f8       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
+                0x000001f8       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
  .debug_aranges
-                0x00000218       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+                0x00000218       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
  .debug_aranges
-                0x00000238       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
+                0x00000238       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
  .debug_aranges
-                0x00000258       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+                0x00000258       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
  .debug_aranges
-                0x00000278       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
- .debug_aranges
-                0x00000298       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
- .debug_aranges
-                0x000002b8       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+                0x00000278       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xa9ce
+.debug_info     0x00000000     0xa5f2
  *(.debug_info)
  .debug_info    0x00000000      0x19e font.o
  .debug_info    0x0000019e      0x14b font1.o
- .debug_info    0x000002e9      0x8e1 main.o
- .debug_info    0x00000bca      0x5e3 text.o
- .debug_info    0x000011ad      0xb57 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
- .debug_info    0x00001d04      0xc18 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
- .debug_info    0x0000291c      0x5b3 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
- .debug_info    0x00002ecf     0x2817 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
- .debug_info    0x000056e6      0xe20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
- .debug_info    0x00006506      0x4e7 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
- .debug_info    0x000069ed      0xbf1 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
- .debug_info    0x000075de      0x678 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
- .debug_info    0x00007c56      0x13a /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
- .debug_info    0x00007d90       0x89 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
- .debug_info    0x00007e19      0xa68 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
- .debug_info    0x00008881      0x8dc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
- .debug_info    0x0000915d      0x17a /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
- .debug_info    0x000092d7      0x1c9 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
- .debug_info    0x000094a0      0x178 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
- .debug_info    0x00009618      0x60c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
- .debug_info    0x00009c24      0x81b /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
- .debug_info    0x0000a43f      0x2ec /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
- .debug_info    0x0000a72b      0x2a3 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+ .debug_info    0x000002e9      0x7b9 main.o
+ .debug_info    0x00000aa2      0x5e3 text.o
+ .debug_info    0x00001085      0xb57 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+ .debug_info    0x00001bdc      0xc18 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+ .debug_info    0x000027f4      0x5b3 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
+ .debug_info    0x00002da7     0x2817 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+ .debug_info    0x000055be      0xe20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+ .debug_info    0x000063de      0x4e7 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
+ .debug_info    0x000068c5      0xbf1 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+ .debug_info    0x000074b6      0x678 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+ .debug_info    0x00007b2e       0x89 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
+ .debug_info    0x00007bb7      0xa68 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+ .debug_info    0x0000861f      0x8dc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+ .debug_info    0x00008efb      0x1c9 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+ .debug_info    0x000090c4      0x178 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
+ .debug_info    0x0000923c      0x60c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+ .debug_info    0x00009848      0x81b /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+ .debug_info    0x0000a063      0x2ec /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+ .debug_info    0x0000a34f      0x2a3 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
 
-.debug_abbrev   0x00000000     0x2a53
+.debug_abbrev   0x00000000     0x2821
  *(.debug_abbrev)
  .debug_abbrev  0x00000000       0xab font.o
  .debug_abbrev  0x000000ab       0xaf font1.o
- .debug_abbrev  0x0000015a      0x2da main.o
- .debug_abbrev  0x00000434      0x1ff text.o
- .debug_abbrev  0x00000633      0x2bd /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
- .debug_abbrev  0x000008f0      0x2d8 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
- .debug_abbrev  0x00000bc8      0x22a /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
- .debug_abbrev  0x00000df2      0x3b5 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
- .debug_abbrev  0x000011a7      0x2b6 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
- .debug_abbrev  0x0000145d       0xf9 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
- .debug_abbrev  0x00001556      0x2c4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
- .debug_abbrev  0x0000181a      0x24d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
- .debug_abbrev  0x00001a67       0xce /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
- .debug_abbrev  0x00001b35       0x14 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
- .debug_abbrev  0x00001b49      0x327 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
- .debug_abbrev  0x00001e70      0x292 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
- .debug_abbrev  0x00002102       0xc0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
- .debug_abbrev  0x000021c2       0xec /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
- .debug_abbrev  0x000022ae       0xb0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
- .debug_abbrev  0x0000235e      0x21d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
- .debug_abbrev  0x0000257b      0x205 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
- .debug_abbrev  0x00002780      0x170 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
- .debug_abbrev  0x000028f0      0x163 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+ .debug_abbrev  0x0000015a      0x236 main.o
+ .debug_abbrev  0x00000390      0x1ff text.o
+ .debug_abbrev  0x0000058f      0x2bd /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+ .debug_abbrev  0x0000084c      0x2d8 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+ .debug_abbrev  0x00000b24      0x22a /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
+ .debug_abbrev  0x00000d4e      0x3b5 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+ .debug_abbrev  0x00001103      0x2b6 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+ .debug_abbrev  0x000013b9       0xf9 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
+ .debug_abbrev  0x000014b2      0x2c4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+ .debug_abbrev  0x00001776      0x24d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+ .debug_abbrev  0x000019c3       0x14 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
+ .debug_abbrev  0x000019d7      0x327 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+ .debug_abbrev  0x00001cfe      0x292 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+ .debug_abbrev  0x00001f90       0xec /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+ .debug_abbrev  0x0000207c       0xb0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
+ .debug_abbrev  0x0000212c      0x21d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+ .debug_abbrev  0x00002349      0x205 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+ .debug_abbrev  0x0000254e      0x170 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+ .debug_abbrev  0x000026be      0x163 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
 
-.debug_line     0x00000000     0x36c5
+.debug_line     0x00000000     0x3380
  *(.debug_line)
  .debug_line    0x00000000      0x148 font.o
  .debug_line    0x00000148      0x149 font1.o
- .debug_line    0x00000291      0x339 main.o
- .debug_line    0x000005ca      0x27a text.o
- .debug_line    0x00000844      0x2da /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
- .debug_line    0x00000b1e      0x286 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
- .debug_line    0x00000da4      0x256 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
- .debug_line    0x00000ffa      0x5b4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
- .debug_line    0x000015ae      0x348 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
- .debug_line    0x000018f6      0x23c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
- .debug_line    0x00001b32      0x2b2 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
- .debug_line    0x00001de4      0x245 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
- .debug_line    0x00002029      0x182 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
- .debug_line    0x000021ab       0xe8 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
- .debug_line    0x00002293      0x2de /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
- .debug_line    0x00002571      0x31b /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
- .debug_line    0x0000288c      0x169 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
- .debug_line    0x000029f5      0x1cc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
- .debug_line    0x00002bc1      0x1ba /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
- .debug_line    0x00002d7b      0x284 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
- .debug_line    0x00002fff      0x313 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
- .debug_line    0x00003312      0x215 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
- .debug_line    0x00003527      0x19e /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+ .debug_line    0x00000291      0x2df main.o
+ .debug_line    0x00000570      0x27a text.o
+ .debug_line    0x000007ea      0x2da /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+ .debug_line    0x00000ac4      0x286 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+ .debug_line    0x00000d4a      0x256 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
+ .debug_line    0x00000fa0      0x5b4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+ .debug_line    0x00001554      0x348 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+ .debug_line    0x0000189c      0x23c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
+ .debug_line    0x00001ad8      0x2b2 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+ .debug_line    0x00001d8a      0x245 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+ .debug_line    0x00001fcf       0xe8 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
+ .debug_line    0x000020b7      0x2de /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+ .debug_line    0x00002395      0x31b /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+ .debug_line    0x000026b0      0x1cc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+ .debug_line    0x0000287c      0x1ba /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
+ .debug_line    0x00002a36      0x284 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+ .debug_line    0x00002cba      0x313 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+ .debug_line    0x00002fcd      0x215 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+ .debug_line    0x000031e2      0x19e /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
 
-.debug_frame    0x00000000     0x13b0
+.debug_frame    0x00000000     0x1348
  *(.debug_frame)
- .debug_frame   0x00000000       0xa8 main.o
- .debug_frame   0x000000a8       0x9c text.o
- .debug_frame   0x00000144      0x128 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
- .debug_frame   0x0000026c       0x5c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
- .debug_frame   0x000002c8      0x118 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
- .debug_frame   0x000003e0      0x650 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
- .debug_frame   0x00000a30      0x2cc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
- .debug_frame   0x00000cfc       0xf0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
- .debug_frame   0x00000dec      0x1b8 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
- .debug_frame   0x00000fa4      0x120 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
- .debug_frame   0x000010c4       0x28 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
- .debug_frame   0x000010ec       0xc0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
- .debug_frame   0x000011ac       0x9c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
- .debug_frame   0x00001248       0x30 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
- .debug_frame   0x00001278       0x30 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
- .debug_frame   0x000012a8       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
- .debug_frame   0x000012c8       0x54 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
- .debug_frame   0x0000131c       0x38 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
- .debug_frame   0x00001354       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
- .debug_frame   0x00001380       0x30 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+ .debug_frame   0x00000000       0x98 main.o
+ .debug_frame   0x00000098       0x9c text.o
+ .debug_frame   0x00000134      0x128 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+ .debug_frame   0x0000025c       0x5c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+ .debug_frame   0x000002b8      0x118 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
+ .debug_frame   0x000003d0      0x650 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+ .debug_frame   0x00000a20      0x2cc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+ .debug_frame   0x00000cec       0xf0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
+ .debug_frame   0x00000ddc      0x1b8 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+ .debug_frame   0x00000f94      0x120 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+ .debug_frame   0x000010b4       0xc0 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+ .debug_frame   0x00001174       0x9c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+ .debug_frame   0x00001210       0x30 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+ .debug_frame   0x00001240       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
+ .debug_frame   0x00001260       0x54 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+ .debug_frame   0x000012b4       0x38 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+ .debug_frame   0x000012ec       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+ .debug_frame   0x00001318       0x30 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
 
-.debug_str      0x00000000     0x29f8
+.debug_str      0x00000000     0x28b5
  *(.debug_str)
  .debug_str     0x00000000      0x14e font.o
                                 0x19a (size before relaxing)
  .debug_str     0x0000014e       0x38 font1.o
                                 0x176 (size before relaxing)
- .debug_str     0x00000186      0x21d main.o
-                                0x3aa (size before relaxing)
- .debug_str     0x000003a3       0x83 text.o
+ .debug_str     0x00000186      0x387 main.o
+                                0x506 (size before relaxing)
+ .debug_str     0x0000050d       0x83 text.o
                                 0x291 (size before relaxing)
- .debug_str     0x00000426      0x467 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+ .debug_str     0x00000590      0x3e4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
                                 0x67a (size before relaxing)
- .debug_str     0x0000088d      0x5a1 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+ .debug_str     0x00000974      0x5a1 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
                                 0x72e (size before relaxing)
- .debug_str     0x00000e2e      0x151 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
+ .debug_str     0x00000f15      0x151 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
                                 0x2eb (size before relaxing)
- .debug_str     0x00000f7f      0x9bc /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+ .debug_str     0x00001066      0x9bb /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
                                 0xc81 (size before relaxing)
- .debug_str     0x0000193b      0x224 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+ .debug_str     0x00001a21      0x224 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
                                 0x6fa (size before relaxing)
- .debug_str     0x00001b5f      0x11d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
+ .debug_str     0x00001c45      0x11d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
                                 0x2bb (size before relaxing)
- .debug_str     0x00001c7c      0x3f2 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+ .debug_str     0x00001d62      0x2c2 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
                                 0x6ac (size before relaxing)
- .debug_str     0x0000206e      0x10d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+ .debug_str     0x00002024      0x10d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
                                 0x413 (size before relaxing)
- .debug_str     0x0000217b       0x58 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
-                                0x1c8 (size before relaxing)
- .debug_str     0x000021d3      0x45f /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+ .debug_str     0x00002131      0x45f /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
                                 0x6c1 (size before relaxing)
- .debug_str     0x00002632       0x92 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+ .debug_str     0x00002590       0x92 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
                                 0x430 (size before relaxing)
- .debug_str     0x000026c4       0xa1 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
-                                0x1f4 (size before relaxing)
- .debug_str     0x00002765       0x47 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+ .debug_str     0x00002622       0x47 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
                                 0x1e8 (size before relaxing)
- .debug_str     0x000027ac       0x42 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
+ .debug_str     0x00002669       0x42 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
                                 0x1de (size before relaxing)
- .debug_str     0x000027ee       0xeb /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+ .debug_str     0x000026ab       0xeb /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
                                 0x2a0 (size before relaxing)
- .debug_str     0x000028d9       0x79 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+ .debug_str     0x00002796       0x79 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
                                 0x2be (size before relaxing)
- .debug_str     0x00002952       0x44 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+ .debug_str     0x0000280f       0x44 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
                                 0x235 (size before relaxing)
- .debug_str     0x00002996       0x62 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+ .debug_str     0x00002853       0x62 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
                                 0x1e8 (size before relaxing)
 
-.debug_loc      0x00000000     0x594d
+.debug_loc      0x00000000     0x57cf
  *(.debug_loc)
- .debug_loc     0x00000000      0x292 main.o
- .debug_loc     0x00000292      0x716 text.o
- .debug_loc     0x000009a8      0x2fe /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
- .debug_loc     0x00000ca6      0x13d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
- .debug_loc     0x00000de3      0x3b4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
- .debug_loc     0x00001197     0x1328 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
- .debug_loc     0x000024bf      0xc6f /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
- .debug_loc     0x0000312e      0x38a /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
- .debug_loc     0x000034b8      0x76b /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
- .debug_loc     0x00003c23      0x3f2 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
- .debug_loc     0x00004015       0x48 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
- .debug_loc     0x0000405d      0x309 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
- .debug_loc     0x00004366      0x8fb /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
- .debug_loc     0x00004c61       0x4a /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
- .debug_loc     0x00004cab      0x10d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
- .debug_loc     0x00004db8      0x382 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
- .debug_loc     0x0000513a      0x4d3 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
- .debug_loc     0x0000560d       0x8e /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
- .debug_loc     0x0000569b      0x2b2 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+ .debug_loc     0x00000000      0x1a6 main.o
+ .debug_loc     0x000001a6      0x716 text.o
+ .debug_loc     0x000008bc      0x2fe /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+ .debug_loc     0x00000bba      0x13d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+ .debug_loc     0x00000cf7      0x3b4 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(srv.o)
+ .debug_loc     0x000010ab     0x1328 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+ .debug_loc     0x000023d3      0xc6f /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+ .debug_loc     0x00003042      0x38a /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gx.o)
+ .debug_loc     0x000033cc      0x76b /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(hid.o)
+ .debug_loc     0x00003b37      0x3f2 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+ .debug_loc     0x00003f29      0x309 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+ .debug_loc     0x00004232      0x8fb /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+ .debug_loc     0x00004b2d      0x10d /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+ .debug_loc     0x00004c3a      0x382 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+ .debug_loc     0x00004fbc      0x4d3 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+ .debug_loc     0x0000548f       0x8e /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+ .debug_loc     0x0000551d      0x2b2 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1456,159 +1001,67 @@ OUTPUT(/Users/shawnanastasio/devkitPro/template/template.elf elf32-littlearm)
  .ARM.attributes
                 0x0000025c       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
  .ARM.attributes
-                0x00000288       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_gethostid.o)
+                0x00000288       0x1a /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
  .ARM.attributes
-                0x000002b4       0x1a /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(svc.o)
+                0x000002a2       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
  .ARM.attributes
-                0x000002ce       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+                0x000002ce       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
  .ARM.attributes
-                0x000002fa       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+                0x000002fa       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
  .ARM.attributes
-                0x00000326       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(soc_common.o)
+                0x00000326       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
  .ARM.attributes
-                0x00000352       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+                0x00000352       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
  .ARM.attributes
-                0x0000037e       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_init.o)
+                0x0000037e       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
  .ARM.attributes
-                0x000003aa       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+                0x000003aa       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
  .ARM.attributes
-                0x000003d6       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+                0x000003d6       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
  .ARM.attributes
-                0x00000402       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+                0x00000402       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fini.o)
  .ARM.attributes
-                0x0000042e       0x2c /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+                0x00000432       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
  .ARM.attributes
-                0x0000045a       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o)
+                0x00000462       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
  .ARM.attributes
-                0x00000472       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_dvmd_tls.o)
+                0x00000492       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x0000048a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fini.o)
+                0x000004c2       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x000004ba       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
+                0x000004f2       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
  .ARM.attributes
-                0x000004ea       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
+                0x00000522       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000051a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
+                0x00000552       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
  .ARM.attributes
-                0x0000054a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
+                0x00000582       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
  .ARM.attributes
-                0x0000057a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
+                0x000005b2       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
  .ARM.attributes
-                0x000005aa       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
+                0x000005e2       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x000005da       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
+                0x00000612       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
  .ARM.attributes
-                0x0000060a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sprintf.o)
+                0x00000642       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
  .ARM.attributes
-                0x0000063a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
+                0x00000672       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
  .ARM.attributes
-                0x0000066a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
+                0x000006a2       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
  .ARM.attributes
-                0x0000069a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfprintf.o)
- .ARM.attributes
-                0x000006ca       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
- .ARM.attributes
-                0x000006fa       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
- .ARM.attributes
-                0x0000072a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
- .ARM.attributes
-                0x0000075a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-dtoa.o)
- .ARM.attributes
-                0x0000078a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
- .ARM.attributes
-                0x000007ba       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
- .ARM.attributes
-                0x000007ea       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
- .ARM.attributes
-                0x0000081a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
- .ARM.attributes
-                0x0000084a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
- .ARM.attributes
-                0x0000087a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
- .ARM.attributes
-                0x000008aa       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mprec.o)
- .ARM.attributes
-                0x000008da       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_fpclassify.o)
- .ARM.attributes
-                0x0000090a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-s_frexp.o)
- .ARM.attributes
-                0x0000093a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
- .ARM.attributes
-                0x0000096a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
- .ARM.attributes
-                0x0000099a       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
- .ARM.attributes
-                0x000009ca       0x16 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcmp.o)
- .ARM.attributes
-                0x000009e0       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
- .ARM.attributes
-                0x00000a10       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
- .ARM.attributes
-                0x00000a40       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
- .ARM.attributes
-                0x00000a70       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
- .ARM.attributes
-                0x00000aa0       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
- .ARM.attributes
-                0x00000ad0       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
- .ARM.attributes
-                0x00000b00       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
- .ARM.attributes
-                0x00000b30       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-callocr.o)
- .ARM.attributes
-                0x00000b60       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
- .ARM.attributes
-                0x00000b90       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
- .ARM.attributes
-                0x00000bc0       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
- .ARM.attributes
-                0x00000bf0       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
- .ARM.attributes
-                0x00000c20       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
- .ARM.attributes
-                0x00000c50       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
- .ARM.attributes
-                0x00000c80       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
- .ARM.attributes
-                0x00000cb0       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
- .ARM.attributes
-                0x00000ce0       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivsi3.o)
- .ARM.attributes
-                0x00000cf8       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_addsubdf3.o)
- .ARM.attributes
-                0x00000d10       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_muldivdf3.o)
- .ARM.attributes
-                0x00000d28       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_cmpdf2.o)
- .ARM.attributes
-                0x00000d40       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_arm_fixdfsi.o)
- .ARM.attributes
-                0x00000d58       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o)
- .ARM.attributes
-                0x00000d70       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
- .ARM.attributes
-                0x00000da0       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
- .ARM.attributes
-                0x00000dd0       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
- .ARM.attributes
-                0x00000e00       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o)
- .ARM.attributes
-                0x00000e18       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzsi2.o)
- .ARM.attributes
-                0x00000e30       0x30 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
- .ARM.attributes
-                0x00000e60       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+                0x000006d2       0x18 /Users/shawnanastasio/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
 
-.debug_ranges   0x00000000      0x6f0
- .debug_ranges  0x00000000       0x68 main.o
- .debug_ranges  0x00000068       0x78 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
- .debug_ranges  0x000000e0       0x28 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
- .debug_ranges  0x00000108       0x70 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
- .debug_ranges  0x00000178       0x38 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
- .debug_ranges  0x000001b0       0x18 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
- .debug_ranges  0x000001c8       0x70 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
- .debug_ranges  0x00000238      0x230 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
- .debug_ranges  0x00000468       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
- .debug_ranges  0x00000488      0x110 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
- .debug_ranges  0x00000598       0xf8 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
- .debug_ranges  0x00000690       0x30 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
- .debug_ranges  0x000006c0       0x30 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
+.debug_ranges   0x00000000      0x6d8
+ .debug_ranges  0x00000000       0x50 main.o
+ .debug_ranges  0x00000050       0x78 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gfx.o)
+ .debug_ranges  0x000000c8       0x28 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(initSystem.o)
+ .debug_ranges  0x000000f0       0x70 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(apt.o)
+ .debug_ranges  0x00000160       0x38 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(gsp.o)
+ .debug_ranges  0x00000198       0x18 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(irrst.o)
+ .debug_ranges  0x000001b0       0x70 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(linear.o)
+ .debug_ranges  0x00000220      0x230 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(mem_pool.o)
+ .debug_ranges  0x00000450       0x20 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_find.o)
+ .debug_ranges  0x00000470      0x110 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_insert.o)
+ .debug_ranges  0x00000580       0xf8 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_remove.o)
+ .debug_ranges  0x00000678       0x30 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_rotate.o)
+ .debug_ranges  0x000006a8       0x30 /Users/shawnanastasio/devkitPro/libctru/lib/libctru.a(rbtree_iterator.o)
