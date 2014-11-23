@@ -77,12 +77,13 @@ int main()
 
 		u8* fb = gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
 		memset(fb, 0, 240*400*3);
+		fb[0] = 0xFF;
+		fb[1] = 0xFF;
+		fb[2] = 0xFF;
 		fb[3*(10+10*240)] = 0xFF;
 		fb[3*(10+10*240)+1] = 0xFF;
 		fb[3*(10+10*240)+2] = 0xFF;
-		fb[3*(10+10*240)+3] = 0xFF;
-		fb[3*(10+10*240)+4] = 0xFF;
-		fb[3*(10+10*240)+5] = 0xFF;
+
 
 
 		// Flush and swap framebuffers
