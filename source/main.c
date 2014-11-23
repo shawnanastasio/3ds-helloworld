@@ -37,10 +37,20 @@ void cutLine(char* str)
 
 void lightPixel(int pixel, u8* framebuffer)
 {
-	tdpixel = pixel * 3;
-	framebuffer[tdpixel] = 0xFF;
-	framebuffer[tdpixel+1] = 0xFF;
-	framebuffer[tdpixel+2] = 0xFF;
+	int p;
+	p = pixel * 3;
+	framebuffer[p] = 0xFF;
+	framebuffer[p+1] = 0xFF;
+	framebuffer[p+2] = 0xFF;
+}
+
+void drawPixel(int pixel, u8* framebuffer, int r, int g, int b)
+{
+	int p;
+	p = pixel * 3;
+	framebuffer[p] = r;
+	framebuffer[p+1] = g;
+	framebuffer[p+2] = b;
 }
 
 
