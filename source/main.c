@@ -97,13 +97,20 @@ int main()
 
 		u8* fb = gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
 		memset(fb, 0, 240*400*3);
-		drawPixel(0, fb, 255, 0, 0);
-		drawPixel(1, fb, 0, 255, 0);
-		drawPixel(2, fb, 0, 0, 255);
-		drawPixel(3, fb, 255, 255, 255);
-		fb[3*(10+10*240)] = 0xFF;
-		fb[3*(10+10*240)+1] = 0xFF;
-		fb[3*(10+10*240)+2] = 0xFF;
+		for(int i = 0; i < 12; i++){
+			lightPixel(i);
+		}
+		for(int i = 240; i < 1681; i + 240){
+			lightPixel(i+5);
+		}
+		for(int i = 1680; i < 1692; i++){
+			lightPixel(i);
+		}
+
+
+		//fb[3*(10+10*240)] = 0xFF;
+		//fb[3*(10+10*240)+1] = 0xFF;
+		//fb[3*(10+10*240)+2] = 0xFF;
 
 
 
