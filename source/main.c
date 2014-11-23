@@ -34,6 +34,15 @@ void cutLine(char* str)
 }
 
 
+
+void lightPixel(int pixel, u8* framebuffer)
+{
+	framebuffer[pixel] = 0xFF;
+	framebuffer[pixel+1] = 0xFF;
+	framebuffer[pixel+2] = 0xFF;
+}
+
+
 int main()
 {
 	// Initialize services
@@ -77,9 +86,7 @@ int main()
 
 		u8* fb = gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
 		memset(fb, 0, 240*400*3);
-		fb[0] = 0xFF;
-		fb[1] = 0xFF;
-		fb[2] = 0xFF;
+		lightPixel(0, fb);
 		fb[3*(10+10*240)] = 0xFF;
 		fb[3*(10+10*240)+1] = 0xFF;
 		fb[3*(10+10*240)+2] = 0xFF;
