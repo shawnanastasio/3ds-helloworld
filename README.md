@@ -1,3 +1,8 @@
-# template
+# 3ds-helloworld
 
-This is a template for starting new 3DS/ctrulib projects.
+A simple hello world program written using smealum's ctrulib.
+
+Feel free to do what you wish with it.
+
+
+Uses some code from smealum's ftPony project: https://github.com/smealum/ftpony

@@ -32,6 +32,10 @@ SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
 
+APP_TITLE := Hello World 3DS
+APP_DESCRIPTION := Best game 2014. 9.8/10 - IGN
+APP_AUTHOR := Shawn Anastasio
+
 #---------------------------------------------------------------------------------
 # options for code generation
 #---------------------------------------------------------------------------------

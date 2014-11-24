@@ -1,4 +1,5 @@
-main.o: /Users/shawnanastasio/devkitPro/template/source/main.c \
+main.o: \
+ /Users/shawnanastasio/devkitPro/other3DS/3ds-helloworld/source/main.c \
  /Users/shawnanastasio/devkitPro/libctru/include/3ds.h \
  /Users/shawnanastasio/devkitPro/libctru/include/3ds/types.h \
  /Users/shawnanastasio/devkitPro/libctru/include/3ds/svc.h \
@@ -25,11 +26,10 @@ main.o: /Users/shawnanastasio/devkitPro/template/source/main.c \
  /Users/shawnanastasio/devkitPro/libctru/include/3ds/gpu/gpu.h \
  /Users/shawnanastasio/devkitPro/libctru/include/3ds/gpu/shdr.h \
  /Users/shawnanastasio/devkitPro/libctru/include/3ds/sdmc.h \
- /Users/shawnanastasio/devkitPro/template/source/costable.h \
- /Users/shawnanastasio/devkitPro/template/source/text.h \
- /Users/shawnanastasio/devkitPro/template/source/font.h \
- /Users/shawnanastasio/devkitPro/template/source/output.h \
- /Users/shawnanastasio/devkitPro/template/source/ftp.h
+ /Users/shawnanastasio/devkitPro/other3DS/3ds-helloworld/source/costable.h \
+ /Users/shawnanastasio/devkitPro/other3DS/3ds-helloworld/source/text.h \
+ /Users/shawnanastasio/devkitPro/other3DS/3ds-helloworld/source/font.h \
+ /Users/shawnanastasio/devkitPro/other3DS/3ds-helloworld/source/output.h
 
 /Users/shawnanastasio/devkitPro/libctru/include/3ds.h:
 
@@ -83,12 +83,10 @@ main.o: /Users/shawnanastasio/devkitPro/template/source/main.c \
 
 /Users/shawnanastasio/devkitPro/libctru/include/3ds/sdmc.h:
 
-/Users/shawnanastasio/devkitPro/template/source/costable.h:
+/Users/shawnanastasio/devkitPro/other3DS/3ds-helloworld/source/costable.h:
 
-/Users/shawnanastasio/devkitPro/template/source/text.h:
+/Users/shawnanastasio/devkitPro/other3DS/3ds-helloworld/source/text.h:
 
-/Users/shawnanastasio/devkitPro/template/source/font.h:
+/Users/shawnanastasio/devkitPro/other3DS/3ds-helloworld/source/font.h:
 
-/Users/shawnanastasio/devkitPro/template/source/output.h:
-
-/Users/shawnanastasio/devkitPro/template/source/ftp.h:
+/Users/shawnanastasio/devkitPro/other3DS/3ds-helloworld/source/output.h:

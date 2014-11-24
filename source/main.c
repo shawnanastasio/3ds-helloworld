@@ -8,7 +8,6 @@
 #include "costable.h"
 #include "text.h"
 #include "output.h"
-#include "ftp.h"
 
 
 char superStr[8192];
@@ -107,14 +106,52 @@ int main()
 			}
 		}
 
+		int k;
+		int qq;
+		int cn;
 
-		gfxDrawText(GFX_TOP, GFX_LEFT, NULL, "Hello WORLD .-. carrotcakes\n", 240-fontDefault.height*1, 10);
+		if (cn < 900) {
+    	//Variable is not too big/NULL.
+    } else {
+      cn = 2;
+    }
+
+		gfxDrawText(GFX_TOP, GFX_LEFT, NULL, "Hello WORLD .-.", 240-fontDefault.height*1, 10);
 		//print("\n\nclient has disconnected.\npress B to exit, or wait for next client !\n\n");
 
 
 		cnt++;
 
 		u32 kDown = hidKeysDown();
+
+		if (kDown & KEY_A)
+		{
+			if (qq == 5) {
+				//qq = 0;
+				cn++;
+			} else { //qq == 0
+				qq = 5;
+				cn++;
+			}
+
+		}
+
+		if (qq == 5)
+		{
+			for (k=2;k<cn;k++) {
+				gfxDrawText(GFX_TOP, GFX_LEFT, NULL, "spaghetti", 240-fontDefault.height*k, 10);
+			}
+		}
+
+		if (kDown & KEY_B)
+		{
+			if (cn > 2)
+			{
+				cn--;
+			}
+		}
+
+
 		if (kDown & KEY_START)
 			break; // break in order to return to hbmenu
 
