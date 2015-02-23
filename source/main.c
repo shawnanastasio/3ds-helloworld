@@ -66,6 +66,36 @@ void drawFrame()
 	gfxSwapBuffers();
 }
 
+int colour = 1;
+int ball = 0;
+
+int ballX = 200;
+int ballY = 120;
+
+void drawBall(int xpos, int ypos) {
+	gfxDrawText(GFX_TOP, GFX_RIGHT, NULL, "BALL", xpos, ypos);
+
+
+  /*
+	gfxScreen_t screen = GFX_TOP;
+	gfx3dSide_t side = GFX_LEFT;
+	font_s* f = &fontDefault;
+	char* str = "O";
+	//s16 x = 240-fontDefault.height*2;
+	//s16 y = 10;
+
+  //Place ball
+	int x = xpos;
+	int y = ypos;
+
+
+	u16 fbWidth, fbHeight;
+	u8* fbAdr=gfxGetFramebuffer(screen, side, &fbWidth, &fbHeight);
+
+	drawString(fbAdr, f, str, y, x, fbHeight, fbWidth);
+	*/
+}
+
 
 int main()
 {
@@ -73,7 +103,7 @@ int main()
 	srvInit();
 	aptInit();
 	hidInit(NULL);
-	gfxInit();
+	gfxInitDefault();
 	//gfxSet3D(true); // uncomment if using stereoscopic 3D
 
 	// Main loop
@@ -92,11 +122,29 @@ int main()
 		{
 			for(j=1;j<240;j++)
 			{
-				//lettuce set screen to blue
 				u32 v=(j+i*240)*3;
-				bufAdr[v] = 0xFF;
-				bufAdr[v+1] = 0x00;
-				bufAdr[v+2] = 0x00;
+				if (colour == 1) //blue
+				{
+					//lettuce set screen to blue
+					bufAdr[v] = 0xFF;
+					bufAdr[v+1] = 0x00;
+					bufAdr[v+2] = 0x00;
+				}
+
+				if (colour == 2) //green
+				{
+					bufAdr[v] = 0x00;
+					bufAdr[v+1] = 0xFF;
+					bufAdr[v+2] = 0x00;
+				}
+
+				if (colour == 3) //red
+				{
+					bufAdr[v] = 0x00;
+					bufAdr[v+1] = 0x00;
+					bufAdr[v+2] = 0xFF;
+				}
+
 
 				/*
 				bufAdr[v]=(pcCos(i+cnt)+4096)/32;
@@ -107,39 +155,69 @@ int main()
 		}
 
 		int k;
+		int v;
 		int qq;
+		int ss;
 		int cn;
+		int sn;
+		int latest;
 
-		if (cn < 900) {
+		if (cn < 15) {
     	//Variable is not too big/NULL.
     } else {
       cn = 2;
     }
 
+		if (sn < 15) {
+			//Variable is not too big/NULL.
+		} else {
+			sn = 2;
+		}
+
+		if (latest < 900) {
+			//Variable is not too big/NULL.
+		} else {
+			latest = 1;
+		}
+
+
 		gfxDrawText(GFX_TOP, GFX_LEFT, NULL, "Hello WORLD .-.", 240-fontDefault.height*1, 10);
 		//print("\n\nclient has disconnected.\npress B to exit, or wait for next client !\n\n");
+
+		u32 kDown = hidKeysDown();
+
+		//Switch colors w/ R
+		if (kDown & KEY_R)
+		{
+			if (colour < 3)
+			{
+				colour++;
+			} else {
+				colour = 1;
+			}
+		}
+
 
 
 		cnt++;
 
-		u32 kDown = hidKeysDown();
-
 		if (kDown & KEY_A)
 		{
-			if (qq == 5) {
+			if (qq == 2) {
 				//qq = 0;
 				cn++;
 			} else { //qq == 0
-				qq = 5;
+				qq = 2;
 				cn++;
 			}
 
 		}
 
-		if (qq == 5)
+		if (qq == 2)
 		{
 			for (k=2;k<cn;k++) {
-				gfxDrawText(GFX_TOP, GFX_LEFT, NULL, "spaghetti", 240-fontDefault.height*k, 10);
+				gfxDrawText(GFX_TOP, GFX_LEFT, NULL, "spaghetti", 240-fontDefault.height*k+latest, 10);
+				//latest++;
 			}
 		}
 
@@ -150,6 +228,90 @@ int main()
 				cn--;
 			}
 		}
+
+		//carrot
+
+		if (kDown & KEY_X)
+		{
+			if (ss == 2) {
+				//s = 0;
+				sn++;
+			} else { //ss == 0
+				ss = 2;
+				sn++;
+			}
+
+		}
+
+		if (ss == 2)
+		{
+			for (v=2;v<sn;v++) {
+				//gfxDrawText(GFX_TOP, GFX_RIGHT, NULL, "carrot", 240-fontDefault.height*v+latest, 10);
+
+				gfxScreen_t screen = GFX_TOP;
+				gfx3dSide_t side = GFX_RIGHT;
+				font_s* f = NULL;
+				char* str = "carrot";
+				s16 x = 240-fontDefault.height*v+latest;
+				s16 y = 10;
+
+				if(!str)return;
+				if(!f)f=&fontDefault;
+
+				u16 fbWidth, fbHeight;
+				u8* fbAdr=gfxGetFramebuffer(screen, side, &fbWidth, &fbHeight);
+
+				//Lettuce shift to the right
+				y=y+60;
+
+				drawString(fbAdr, f, str, y, x, fbHeight, fbWidth);
+			}
+		}
+
+		if (kDown & KEY_Y)
+		{
+			if (sn > 2)
+			{
+				sn--;
+			}
+		}
+
+		//Ball WHEEEE
+		if (kDown & KEY_L)
+		{
+			if (ball == 0)
+			{
+				ball = 1;
+			} else {
+				ball = 0;
+			}
+		}
+
+		//MOVE DAT BALL
+		if (kDown & KEY_DUP)
+		{
+			ballY=ballY+5;
+		}
+		if (kDown & KEY_DDOWN)
+		{
+			ballY=ballY-5;
+		}
+
+		if (kDown & KEY_DRIGHT)
+		{
+			ballX=ballX+5;
+		}
+
+		if (kDown & KEY_DLEFT)
+		{
+			ballX=ballX-5;
+		}
+
+
+		if (ball == 1) {
+			drawBall(ballX, ballY);
+		}
+
 
 
 		if (kDown & KEY_START)
